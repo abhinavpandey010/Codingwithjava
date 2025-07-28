@@ -6,6 +6,7 @@ class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
+        sc.close();
         float result = b*b-4*a*c;
         if(result < 0){
             System.out.println("No real roots exist");
